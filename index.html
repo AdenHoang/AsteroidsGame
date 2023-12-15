@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Title</title>
+		<title>Asteroids</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
@@ -11,11 +11,16 @@
 			<h1>Header</h1>
 		</header>
 			<section id="content">
-				<canvas id="AsteroidsGame" data-processing-sources="AsteroidsGame.pde Floater.pde Spaceship.pde Star.pde">
+				<canvas id="AsteroidsGame" data-processing-sources="Asteroid.pde AsteroidsGame.pde Bullet.pde Floater.pde Spaceship.pde Star.pde">
 				</canvas>
 		    </section>
 	    <footer>
-		    Footer
+		    "w" Throttle Forward<br>
+		    "s" Throttle Backward<br>
+		    "a" Turn Left<br>
+		    "d" Turn Right <br>
+		    "h" HyperSpace<br>
+		    " " Shoot<br>
 	    </footer>
 	</body>
 </html>
